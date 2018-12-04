@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+  box-sizing:border-box;
+}
+body {
+	font-family:helvetica;
+	background-color: white;
+}
+
+#container {
+  width: 100%;
+}
+.Menu {
+  display: flex;
+}
+.side-right {
+  font-size: small;
+  margin-top: 1.6%;
+  margin-right: .5%;
+}
+.profile-picture {
+  text-align: right;
+  margin: .4em;
+}
+input[type='text'] {
+  width: 200%;
+  height: 2rem;
+  font-size: 1.8rem;
+  padding: 1px 40px;
+  margin: 8px 0;
+  color: lightgray;
+  border: none;
+  text-align: left;
+  box-sizing: border-box;
+}
+.hero-image {
+  height: 100vh;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-image: url("https://i.imgur.com/EIhqlEx.jpg");
+  background-size: contain;
+}
+.nav {
+  display: flex;
+  border-bottom: 0.05em solid lightgray;
+  color: white;
+  justify-content: flex-end;
+}
+.nav-text {
+  display: flex;
+  color: white;
+  font-size: x-small;
+}
+.date {
+  border-right: 0.1em solid white;
+  height: 1em;
+  margin: 0.5em;
+  padding-right: 0.5rem;
+}
+.Sunny {
+  border-right: 0.1em solid white;
+  height: 1em;
+  margin: 0.5em;
+  padding-right: 0.5rem;
+}
+.temperature {
+  border-right: 0.1em solid white;
+  height: 1em;
+  margin: 0.5em;
+  padding-right: 0.5rem;
+}
+.Broadway {
+  display: flex;
+  margin: 0.5em;
+  width: 15em;
+}
+.words {
+  text-align: center;
+  top: 50%;
+  bottom: 50%;
+  font-size: 400%;
+  color: white;
+  font-style: normal;
+  font-weight: 100;
+}
